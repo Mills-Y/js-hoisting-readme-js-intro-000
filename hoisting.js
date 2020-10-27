@@ -20,9 +20,9 @@ crazy()
 var sayMyName = function() {
   var name = "Cricky";
   function sayMy() {
-  var name = "Kristin";
+  name = "Kristin";
     console.log(name);
   }
-  sayMyName();
+  sayMy();
 }
-sayMy();
+sayMyName()();
